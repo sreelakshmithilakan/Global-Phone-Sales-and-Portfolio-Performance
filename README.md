@@ -1,10 +1,10 @@
-# Global Phone Sales & Portfolio Analytics
+# 📱 Global Phone Sales & Portfolio Analytics
 
 [![Power BI](https://img.shields.io/badge/Business_Intelligence-Power_BI-yellow?style=flat\&logo=powerbi)](https://powerbi.microsoft.com/)
 [![Data Modeling](https://img.shields.io/badge/Data_Modeling-Dimensional_Model-blue?style=flat)](#)
 [![DAX](https://img.shields.io/badge/Analytics-DAX-orange?style=flat)](#)
 
-## Executive Overview
+## 📋 Executive Overview
 
 Global Phone Sales & Portfolio Analytics is a Power BI business intelligence solution developed to evaluate smartphone portfolio performance, regional sales trends, and mobile operator distribution effectiveness across international markets.
 
@@ -14,16 +14,14 @@ The dashboard simulates a commercial reporting environment where business stakeh
 
 ---
 
-## Dashboard Preview
+## 📸 Dashboard Preview
 
-### Executive Overview Dashboard
-
-<img width="1272" height="722" alt="image" src="https://github.com/user-attachments/assets/5befb89e-e92e-424d-bde1-a183297740db" />
+<img width="1272" height="722" alt="image" src="https://github.com/user-attachments/assets/22e0c5be-a122-4370-9376-698072d8369e" />
 
 
 ---
 
-## Business Problem
+## 🎯 Business Problem
 
 Revenue alone does not provide a complete picture of business performance. Organizations often require additional visibility into profitability, channel effectiveness, and regional performance to support strategic decision-making.
 
@@ -36,7 +34,7 @@ Key business challenges addressed by this project include:
 
 ---
 
-## Objectives
+## 🚀 Objectives
 
 * Analyze smartphone portfolio performance across multiple brands.
 * Compare revenue generation and profitability across products and markets.
@@ -46,7 +44,7 @@ Key business challenges addressed by this project include:
 
 ---
 
-## Dataset Overview
+## 📊 Dataset Overview
 
 The solution is built using two primary datasets:
 
@@ -57,7 +55,7 @@ The solution is built using two primary datasets:
 
 ---
 
-## Data Architecture
+## 🛠️ Data Architecture
 
 The data model follows a dimensional design consisting of a transactional fact table connected to a dedicated calendar dimension. This structure supports efficient filtering, time-based analysis, and optimized report performance within Power BI.
 
@@ -81,7 +79,7 @@ Date_Phones (Dimension Table)
 
 ---
 
-## Analytical DAX Engine
+## 🧮 Analytical DAX Engine
 
 Key business metrics were developed using explicit DAX measures to ensure accurate calculations across different filter contexts and reporting dimensions.
 
@@ -122,7 +120,7 @@ DIVIDE(
 
 ---
 
-## Dashboard Design
+## 🎨 Dashboard Design
 
 The dashboard is organized into three analytical layers designed to guide users from high-level performance indicators to detailed operational insights.
 
@@ -142,7 +140,8 @@ Trend-based visualizations enable users to:
 * Track sales performance over time.
 * Compare regional activity.
 * Identify seasonal patterns and fluctuations.
-### 3. Portfolio Diagnostics Layer
+
+### 3. Portfolio Diagnostics
 
 #### Revenue vs Profit Analysis (Clustered Bar Chart)
 
@@ -154,23 +153,29 @@ A 100% stacked bar chart visualizes handset sales volume across major telecom op
 
 ---
 
-## Key Insights Generated
+## 📈 Key Insights Generated
 
 ### 1. Revenue vs Profitability Analysis
 
-The analysis demonstrates that sales volume alone is not always an accurate indicator of business performance. While several leading smartphone manufacturers generated the highest levels of revenue, certain mid-tier brands, particularly Nokia, achieved significantly stronger profit margins. With gross margins exceeding 43.8%, these products contributed disproportionately to overall profitability relative to their sales volume, highlighting the importance of evaluating both revenue and margin performance.
+The analysis demonstrated that sales volume alone was not always an accurate indicator of business performance. While several leading smartphone manufacturers generated the highest levels of revenue, certain mid-tier brands, particularly Nokia, achieved significantly stronger profit margins.
+
+With gross margins exceeding 43.8%, these products contributed disproportionately to overall profitability relative to their sales volume, highlighting the importance of evaluating both revenue and margin performance.
 
 ### 2. Distribution Channel Dependency Risk
 
-Operator-level analysis revealed instances where specific device portfolios relied heavily on a limited number of telecom distribution partners. Concentration within networks such as Movistar and Entel may increase channel dependency and operational risk. These findings provide visibility into distribution patterns and support more balanced allocation strategies across operator networks.
+Operator-level analysis revealed instances where specific device portfolios relied heavily on a limited number of telecom distribution partners. Concentration within networks such as Movistar and Entel may increase channel dependency and operational risk.
+
+These findings provide visibility into distribution patterns and support more balanced allocation strategies across operator networks.
 
 ### 3. Regional Margin Variations
 
-Country-level analysis identified notable differences in profitability across markets despite similar pricing structures. Understanding these regional margin variations can support localized pricing decisions, targeted promotional strategies, and more effective inventory allocation across geographic markets.
+Country-level analysis identified notable differences in profitability across markets despite similar pricing structures.
+
+Understanding these regional margin variations can support localized pricing decisions, targeted promotional strategies, and more effective inventory allocation across geographic markets.
 
 ---
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
 * **Power BI Desktop** – Data modeling, DAX development, and dashboard design.
 * **Power Query** – Data transformation and preparation.
@@ -179,7 +184,7 @@ Country-level analysis identified notable differences in profitability across ma
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
 ```text
 ├── data/
@@ -189,12 +194,15 @@ Country-level analysis identified notable differences in profitability across ma
 ├── models/
 │   └── Global_Phone_Sales_Analytics.pbix
 │
+├── images/
+│   └── Dashboard_Overview.png
+│
 └── README.md
 ```
 
 ---
 
-## Project Highlights
+## 📌 Project Highlights
 
 * Dimensional Data Modeling
 * DAX-Based KPI Development
