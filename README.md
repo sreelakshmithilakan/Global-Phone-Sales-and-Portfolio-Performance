@@ -1,10 +1,10 @@
-# 📱 Global Phone Sales & Portfolio Analytics
+# Global Phone Sales & Portfolio Analytics
 
 [![Power BI](https://img.shields.io/badge/Business_Intelligence-Power_BI-yellow?style=flat\&logo=powerbi)](https://powerbi.microsoft.com/)
 [![Data Modeling](https://img.shields.io/badge/Data_Modeling-Dimensional_Model-blue?style=flat)](#)
 [![DAX](https://img.shields.io/badge/Analytics-DAX-orange?style=flat)](#)
 
-## 📋 Executive Overview
+## Executive Overview
 
 Global Phone Sales & Portfolio Analytics is a Power BI business intelligence solution developed to evaluate smartphone portfolio performance, regional sales trends, and mobile operator distribution effectiveness across international markets.
 
@@ -14,14 +14,14 @@ The dashboard simulates a commercial reporting environment where business stakeh
 
 ---
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 
 <img width="1272" height="722" alt="image" src="https://github.com/user-attachments/assets/22e0c5be-a122-4370-9376-698072d8369e" />
 
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 Revenue alone does not provide a complete picture of business performance. Organizations often require additional visibility into profitability, channel effectiveness, and regional performance to support strategic decision-making.
 
@@ -34,7 +34,7 @@ Key business challenges addressed by this project include:
 
 ---
 
-## 🚀 Objectives
+## Objectives
 
 * Analyze smartphone portfolio performance across multiple brands.
 * Compare revenue generation and profitability across products and markets.
@@ -44,7 +44,7 @@ Key business challenges addressed by this project include:
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The solution is built using two primary datasets:
 
@@ -55,7 +55,7 @@ The solution is built using two primary datasets:
 
 ---
 
-## 🛠️ Data Architecture
+## Data Architecture
 
 The data model follows a dimensional design consisting of a transactional fact table connected to a dedicated calendar dimension. This structure supports efficient filtering, time-based analysis, and optimized report performance within Power BI.
 
@@ -79,7 +79,7 @@ Date_Phones (Dimension Table)
 
 ---
 
-## 🧮 Analytical DAX Engine
+## Analytical DAX Engine
 
 Key business metrics were developed using explicit DAX measures to ensure accurate calculations across different filter contexts and reporting dimensions.
 
@@ -120,18 +120,18 @@ DIVIDE(
 
 ---
 
-## 🎨 Dashboard Design
+## Dashboard Design
 
 The dashboard is organized into three analytical layers designed to guide users from high-level performance indicators to detailed operational insights.
 
-## 📊 Executive KPI Summary
+## Executive KPI Summary
 
 * **Total Revenue ($39.34M):** Represents the top-line absolute gross sales volume generated across all global transactions.
 * **Net Profit ($14.19M) & Profit Margin (36.07%):** Calculated through a precise row-by-row iteration layer. In global consumer electronics retail, a sustained **36.07% cumulative profit margin** indicates an exceptionally healthy pricing structure and excellent baseline operational efficiency.
 
 ---
 
-## 📈 Deep-Dive Visualization Analysis
+## Deep-Dive Visualization Analysis
 
 ### 1. Product Portfolio Matrix: Volume vs. Efficiency (Scatter Plot)
 This is a customized **BCG Matrix Framework** embedded within the scatter visualization. By plotting **Total Quantity Sold (Volume)** on the X-axis against **Profit Margin % (Efficiency)** on the Y-axis, the data segments product lines into clear operational quadrants:
@@ -169,7 +169,7 @@ This analytical trend line maps the continuous commercial velocity of the busine
 * `Oeschle` and `Plaza Vea` are clearly identified as the anchor distribution channels, carrying the heavy operational load for major volume drivers like Apple and LG.
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * **Power BI Desktop** – Data modeling, DAX development, and dashboard design.
 * **Power Query** – Data transformation and preparation.
@@ -178,7 +178,7 @@ This analytical trend line maps the continuous commercial velocity of the busine
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── data/
@@ -196,7 +196,7 @@ This analytical trend line maps the continuous commercial velocity of the busine
 
 ---
 
-## 📌 Project Highlights
+## Project Highlights
 
 * Dimensional Data Modeling
 * DAX-Based KPI Development
